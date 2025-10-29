@@ -1,1 +1,1 @@
-# bank-statement-processor
+# Bank Statement Processor
