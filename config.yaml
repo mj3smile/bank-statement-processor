@@ -1,0 +1,3 @@
+eventbus_consumers:
+  topic_name:
+    worker: 5
