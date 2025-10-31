@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e718c84b-2443-460e-a649-ba0c3833a2b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/event/bus.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/event/consumer/reconciliation_consumer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/event/event.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handler/http/balance_handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handler/http/health_handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handler/http/issues_handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handler/http/middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handler/http/statement_handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/handler/http/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/infra/log/log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/infra/server/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/model/transaction/transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/model/upload/upload_statement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/memory/transaction_repo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/memory/transaction_repo_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/memory/upload_statement_repo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/usecase/balance.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/usecase/issues.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/usecase/statement.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/usecase/statement_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_statement_csv_100.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/api_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/api/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/handler/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/repository/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/repository/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/eventbus/consumer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/eventbus/eventbus.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/eventbus/producer.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///usr/local/go/src/net/http/server.go" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="34jJ4lgJmH0p5ffaL5mn7SJe3hP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Test.TestFullWorkflow_UploadProcessQuery in github.com/mj3smile/bank-statement-processor/tests/integration.executor": "Run",
+    "Go Test.Test_statement_parseTransaction in github.com/mj3smile/bank-statement-processor/internal/usecase.executor": "Coverage",
+    "Go Test.Test_transactionRepository_GetBalanceByUploadID in github.com/mj3smile/bank-statement-processor/internal/repository/memory.executor": "Coverage",
+    "Go Test.Test_transactionRepository_GetBalanceByUploadID/it_should_return_balance_as_expected_when_given_transactions_with_status_SUCCESS in github.com/mj3smile/bank-statement-processor/internal/repository/memory.executor": "Debug",
+    "Go Test.Test_transactionRepository_GetBalanceByUploadID/it_should_return_balance_as_expected_when_given_transactions_with_status_SUCCESS,_FAILED,_and_PENDING in github.com/mj3smile/bank-statement-processor/internal/repository/memory.executor": "Run",
+    "Go Test.Test_transactionRepository_GetIssuesWithFilters in github.com/mj3smile/bank-statement-processor/internal/repository/memory.executor": "Run",
+    "Go Test.Test_transactionRepository_GetIssuesWithFilters/it_should_return_empty_list_when_given_transactions_with_status_SUCCESS in github.com/mj3smile/bank-statement-processor/internal/repository/memory.executor": "Run",
+    "Go Test.Test_transactionRepository_GetIssuesWithFilters/it_should_return_empty_list_when_given_transactions_with_status_SUCCESS,_FAILED,_and_PENDING in github.com/mj3smile/bank-statement-processor/internal/repository/memory.executor": "Run",
+    "Go Test.Test_transactionRepository_GetIssuesWithFilters/it_should_return_list_as_expected_when_given_4_FAILED_transactions_and_filters_with_page=2_and_pageSize=2 in github.com/mj3smile/bank-statement-processor/internal/repository/memory.executor": "Run",
+    "Go Test.Test_transactionRepository_GetIssuesWithFilters/it_should_return_list_as_expected_when_given_filters_as_defined in github.com/mj3smile/bank-statement-processor/internal/repository/memory.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboarding": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/home/m/go/src/github.com/mj3smile/bank-statement-processor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd/api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.Test_transactionRepository_GetIssuesWithFilters in github.com/mj3smile/bank-statement-processor/internal/repository/memory">
+    <configuration name="TestFullWorkflow_UploadProcessQuery in github.com/mj3smile/bank-statement-processor/tests/integration" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bank-statement-processor" />
+      <working_directory value="$PROJECT_DIR$/tests/integration" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/mj3smile/bank-statement-processor/tests/integration" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestFullWorkflow_UploadProcessQuery\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_transactionRepository_GetIssuesWithFilters in github.com/mj3smile/bank-statement-processor/internal/repository/memory" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bank-statement-processor" />
+      <working_directory value="$PROJECT_DIR$/internal/repository/memory" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/mj3smile/bank-statement-processor/internal/repository/memory" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_transactionRepository_GetIssuesWithFilters\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_transactionRepository_GetIssuesWithFilters/it_should_return_empty_list_when_given_transactions_with_status_SUCCESS,_FAILED,_and_PENDING in github.com/mj3smile/bank-statement-processor/internal/repository/memory" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bank-statement-processor" />
+      <working_directory value="$PROJECT_DIR$/internal/repository/memory" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/mj3smile/bank-statement-processor/internal/repository/memory" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_transactionRepository_GetIssuesWithFilters\E$/^\Qit_should_return_empty_list_when_given_transactions_with_status_SUCCESS,_FAILED,_and_PENDING\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_transactionRepository_GetIssuesWithFilters/it_should_return_list_as_expected_when_given_4_FAILED_transactions_and_filters_with_page=2_and_pageSize=2 in github.com/mj3smile/bank-statement-processor/internal/repository/memory" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bank-statement-processor" />
+      <working_directory value="$PROJECT_DIR$/internal/repository/memory" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/mj3smile/bank-statement-processor/internal/repository/memory" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_transactionRepository_GetIssuesWithFilters\E$/^\Qit_should_return_list_as_expected_when_given_4_FAILED_transactions_and_filters_with_page=2_and_pageSize=2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test_transactionRepository_GetIssuesWithFilters/it_should_return_list_as_expected_when_given_filters_as_defined in github.com/mj3smile/bank-statement-processor/internal/repository/memory" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bank-statement-processor" />
+      <working_directory value="$PROJECT_DIR$/internal/repository/memory" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/mj3smile/bank-statement-processor/internal/repository/memory" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTest_transactionRepository_GetIssuesWithFilters\E$/^\Qit_should_return_list_as_expected_when_given_filters_as_defined\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.Test_transactionRepository_GetIssuesWithFilters in github.com/mj3smile/bank-statement-processor/internal/repository/memory" />
+        <item itemvalue="Go Test.TestFullWorkflow_UploadProcessQuery in github.com/mj3smile/bank-statement-processor/tests/integration" />
+        <item itemvalue="Go Test.Test_transactionRepository_GetIssuesWithFilters/it_should_return_list_as_expected_when_given_filters_as_defined in github.com/mj3smile/bank-statement-processor/internal/repository/memory" />
+        <item itemvalue="Go Test.Test_transactionRepository_GetIssuesWithFilters/it_should_return_list_as_expected_when_given_4_FAILED_transactions_and_filters_with_page=2_and_pageSize=2 in github.com/mj3smile/bank-statement-processor/internal/repository/memory" />
+        <item itemvalue="Go Test.Test_transactionRepository_GetIssuesWithFilters/it_should_return_empty_list_when_given_transactions_with_status_SUCCESS,_FAILED,_and_PENDING in github.com/mj3smile/bank-statement-processor/internal/repository/memory" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-f466f9b0953e-3d2cccfc42a2-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-252.26199.158" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-GO-252.26199.158" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e718c84b-2443-460e-a649-ba0c3833a2b6" name="Changes" comment="" />
+      <created>1761720858907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761720858907</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/repository/memory/transaction_repo.go</url>
+          <line>50</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/repository/memory/transaction_repo.go</url>
+          <line>74</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bank_statement_processor$Test_transactionRepository_GetBalanceByUploadID_in_github_com_mj3smile_bank_statement_processor_internal_repository_memory.out" NAME="Test_transactionRepository_GetBalanceByUploadID in github.com/mj3smile/bank-statement-processor/internal/repository/memory Coverage Results" MODIFIED="1761898196131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bank_statement_processor$Test_statement_parseTransaction_in_github_com_mj3smile_bank_statement_processor_internal_usecase.out" NAME="Test_statement_parseTransaction in github.com/mj3smile/bank-statement-processor/internal/usecase Coverage Results" MODIFIED="1761896973276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bank_statement_processor$Test_transactionRepository_GetIssuesWithFilters_in_github_com_mj3smile_bank_statement_processor_internal_repository_memory.out" NAME="Test_transactionRepository_GetIssuesWithFilters in github.com/mj3smile/bank-statement-processor/internal/repository/memory Coverage Results" MODIFIED="1761899773292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
